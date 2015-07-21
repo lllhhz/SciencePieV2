@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   android:orientation="vertical"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sciencepie.mm.view.MyHeaderView style = "@style/FillParentWrapContent"/>
+    
+    
+    
+    <com.sciencepie.mm.view.MyViewPager style = "@style/FillParentWrapContent" android:id = "@id/main_content_viewpager"
+        android:layout_weight = "1000">
+        
+    </com.sciencepie.mm.view.MyViewPager>
+    
+    
+    
+    
+<!--    <RelativeLayout -->
+<!--       android:layout_width="match_parent" -->
+<!--       android:layout_height="wrap_content"  -->
+<!--       android:layout_weight="1000" -->
+<!--       android:id="@id/main_relativeLayout"> -->
+      
+<!--    </RelativeLayout> -->
+       <RadioGroup 
+         android:id="@id/main_tab_RadioGroup"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         android:background="@color/background_grey"
+         android:gravity="center_vertical"
+         android:orientation="horizontal"  
+         
+           >
+           <RadioButton
+               android:id="@id/main_tab_information" 
+               style="@style/main_tab"
+
+               android:button="@drawable/selector_bottomtab_1"
+               android:checked="true"
+               
+               />
+           <RadioButton 
+               android:id="@id/main_tab_project"
+               style="@style/main_tab"
+               android:button="@drawable/selector_bottomtab_2"
+               
+               
+               />
+           <RadioButton 
+               android:id="@id/main_tab_document"
+               style="@style/main_tab"
+               android:button="@drawable/selector_bottomtab_3"
+               
+               
+               />
+           <RadioButton 
+            android:id="@id/main_tab_help"
+            style="@style/main_tab"
+            android:button="@drawable/selector_bottomtab_4"
+            
+            
+               />
+           <RadioButton 
+            android:id="@id/main_tab_personal"
+            style="@style/main_tab"
+            android:button="@drawable/selector_bottomtab_5"
+             
+            
+               />
+       </RadioGroup>
+       
+   </LinearLayout> 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#000000</color>
+    <color name="blue"> #39a2de</color> 
+    <color name="text_grey"> #888888</color> 
+    <color name="background_grey">#f8f8f8</color>
+    <color name="orange">#fea841</color>
+    <color name="comment_text">#b4b4b4</color>
+    <color name="tab_gray">#808080</color>
+    <color name="white"> #ffffff</color> 
+    <color name="black"> #000000</color> 
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item  type = "id" name = "head_contentLayout">false</item>
+    <item  type = "id" name = "header_searchLayout">false</item>
+    <item  type = "id" name = "main_relativeLayout">false</item>
+    <item  type = "id" name = "main_content_viewpager">false</item> 
+    <item  type = "id" name = "fragment_viewpager">false</item> 
+    <item  type = "id" name = "scroll_header_scroller">false</item>
+    <item  type = "id" name = "scroll_header_container">false</item>
+    <item  type = "id" name = "information_scroll_header">false</item>
+    <item  type = "id" name = "scroll_header_tv">false</item>
+    <item  type = "id" name = "header_search">false</item>
+    <item  type = "id" name = "header_search_button">false</item>
+    <item  type = "id" name = "main_tab_RadioGroup">false</item>
+    <item  type = "id" name = "main_tab_information">false</item>
+    <item  type = "id" name = "main_tab_project">false</item>
+    <item  type = "id" name = "main_tab_document">false</item>
+    <item  type = "id" name = "main_tab_help">false</item>
+    <item  type = "id" name = "main_tab_personal">false</item>
+    <!-- personal -->
+    <item  type = "id" name = "avatar">false</item>
+    <item  type = "id" name = "avatar_vip">false</item>
+    <item  type = "id" name = "name">false</item>
+    <item  type = "id" name = "score">false</item>
+    <item  type = "id" name = "my_attention">false</item>
+    <item  type = "id" name = "my_message">false</item>
+    <item  type = "id" name = "my_collect">false</item>
+    <item  type = "id" name = "my_help">false</item>
+    <item  type = "id" name = "my_task">false</item>
+    <item  type = "id" name = "my_setting">false</item>
+    <item  type = "id" name = "my_share">false</item>
+    <item  type = "id" name = "red_dot">false</item>
+    
+  
+</resources>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout 
+          style = "@style/FillParent" 
+           android:orientation="vertical"> 
+      
+       <FrameLayout
+          
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_centerVertical="true" 
+          android:layout_marginTop="20dip">
+
+          <FrameLayout
+              style="@style/WrapContent"
+              android:layout_gravity="center" >
+
+              <com.sciencepie.mm.view.CircularImage
+                  android:id="@id/avatar"
+                  style="@style/WrapContent"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/avatar" />
+          </FrameLayout>
+
+          <ImageView
+              android:id="@id/avatar_vip"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|right"
+              android:src="@drawable/avatar_vip"
+              android:visibility="visible" />
+      </FrameLayout>
+         
+         
+         
+         
+         
+ 
+       <TextView 
+          android:id="@id/name"
+          style="@style/WrapContent"
+          android:text="XXX@qq.com"
+          android:textColor="@color/blue"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dip"
+          
+          />
+      <TextView 
+          android:id="@id/score"
+          style="@style/WrapContent"
+          android:text="当前积分：100"
+          android:textColor="@color/blue"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dip"
+          /> 
+            
+       <RelativeLayout 
+           android:layout_marginTop="20dip"
+           style = "@style/LineHorizontalBar2">
+       </RelativeLayout>
+       <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_attention"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_attention_pic"
+               android:background="@drawable/my_attention_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="我的关注"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+        
+        
+        <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_message"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_message_pic"
+               android:background="@drawable/my_message_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="我的消息"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+        
+        
+        
+        <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_collect"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_collect_pic"
+               android:background="@drawable/my_collect_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="我的收藏"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+	
+        
+        
+        <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_help"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_help_pic"
+               android:background="@drawable/my_help_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="我的求助"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+        
+        
+        <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_task"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_task_pic"
+               android:background="@drawable/my_task_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="我的任务"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+        
+        
+        <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_setting"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_setting_pic"
+               android:background="@drawable/my_setting_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="更多设置"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+        
+        
+        
+        
+         <RelativeLayout 
+           
+           android:layout_width="match_parent"
+           android:layout_height="50dip"
+           android:id="@id/my_share"
+           android:layout_gravity="center_vertical">
+           <ImageView
+               style ="@style/WrapContent"
+               android:id="@+id/my_share_pic"
+               android:background="@drawable/my_share_pic"
+               android:layout_marginLeft="15dip"
+               android:layout_centerVertical="true"
+               />
+           <TextView 
+               android:text="将科研•派分享给好友"
+               style = "@style/personal_tv"
+               android:layout_marginLeft="70dip"
+               android:layout_centerVertical="true"
+               />
+           <ImageView 
+               style = "@style/WrapContent"
+               android:background="@drawable/red_dot"
+               android:id="@id/red_dot"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="15dip"
+               android:visibility="visible"
+               />
+           
+        </RelativeLayout>
+        <LinearLayout 
+          style = "@style/LineHorizontalBar">
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    
+  
+    <LinearLayout        
+         android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    
+    <HorizontalScrollView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:id="@id/scroll_header_scroller"
+       >
+        <LinearLayout
+            android:id="@id/scroll_header_container"
+            android:layout_width="match_parent" 
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:background="@color/background_grey">
+
+<!--             <TextView -->
+<!--                 style = "@style/scorll_header_tv_style" -->
+<!--                 android:id="@+id/text1" -->
+<!--                 android:textColor="@color/blue" -->
+<!--                 android:text="热门资讯"  -->
+<!--                 /> -->
+                
+<!--             <TextView -->
+<!--                 style = "@style/scorll_header_tv_style" -->
+<!--                 android:id="@+id/text2" -->
+<!--                 android:text="访问学者"  -->
+<!--                 android:textColor="@color/text_gray" -->
+<!--                 android:layout_toRightOf="@id/text1" -->
+<!--                />     -->
+         </LinearLayout>
+          
+    </HorizontalScrollView>
+    
+    <View style ="@style/LineHorizontalBar"/>
+    
+    </LinearLayout>
+    
+    
+</ScrollView>

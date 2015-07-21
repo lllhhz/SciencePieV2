@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_grey"
+        android:gravity="center_vertical"
+        >
+        <TextView
+             android:id="@+id/text_hot"
+             android:layout_width="wrap_content"   
+             android:layout_height="wrap_content" 
+             android:text="+ 热门讨论区"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="10dip"
+             android:layout_marginBottom="10dip"
+              >
+                
+        </TextView> 
+        
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/forum_list"
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" 
+    
+    ></ListView>
+</LinearLayout>
